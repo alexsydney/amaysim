@@ -1,0 +1,114 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ // Custom bootstrap variables must be set or imported *before* bootstrap.
+ @import "bootstrap";
+
+ body{
+    //  margin-bottom: 500px;
+     padding-bottom: 500px;
+    //  background-color: red;
+ }
+
+ .container {
+     margin-right: 0px;
+     margin-left: 0px;
+     padding-left: 0px !important;
+     padding-right: 0px !important;
+ }
+
+ .bg-orange{
+     background-color: #f50;
+     height: 80px;
+ }
+
+ .bg-purple{
+     background-color: #510063;
+     background-size: cover;
+     max-width: 100%;
+     height: 300px;
+     padding: 0px, 0px, 0px, 0px;
+ }
+ .bg-white{
+    background-color: #fff;
+    height: 40px;
+    margin-top: 20px
+ }
+ .text-orange {
+     color: #f50 !important;
+ }
+
+//  .fa {
+//    padding: 20px;
+//    font-size: 30px;
+//    width: 30px;
+//    text-align: center;
+//    text-decoration: none;
+//    margin: 5px 2px;
+//    border-radius: 50%;
+//  }
+//
+//  .fa:hover {
+//      opacity: 0.7;
+//  }
+//  .fa-facebook {
+//   background: #3B5998;
+//   color: white;
+// }
+//
+// .fa-twitter {
+//   background: #55ACEE;
+//   color: white;
+// }
+// .fa-youtube {
+//   background: #bb0000;
+//   color: white;
+// }
+//
+// .fa-instagram {
+//   background: #125688;
+//   color: white;
+// }
+//
+// .footer-container {
+//     padding-bottom: 100px;
+//     // padding-top: 1000px;
+// }
+//
+// .footer-list {
+//     list-style-type: none;
+//     margin: 0;
+//     padding: 0;
+// }
+// // for index pagw
+// .bg-purple-col-8 {
+//     margin-top: 40px;
+// }
+// .btn-check-it-out {
+//     background-color: #f50;
+//     padding-left: 3px;
+//     padding-right: 3px;
+//     margin-left: 0px;
+//     margin-bottom: 80px;
+//     max-width: 100%;
+// }
+// .image {
+//     height: 200px;
+//     width: 200px;
+//     margin-top: 30px;
+//     margin-bottom: 30px;
+//     margin-left: 40px;
+//
+// }
